@@ -42,10 +42,10 @@ class Movie
             "Vote: " . $this->vote . "min" . "<br/>";
     }
 }
-$ForrestGump = new Movie('Forrest Gump', 142, 'Dramatic comedy', 4, 4);
+$ForrestGump = new Movie('Forrest Gump', 142, 'Dramatic comedy', '4');
 $ForrestGump->getDuration($ForrestGump->duration);
 
-$Dunkirk = new Movie('Dunkirk', 106, 'Dramatic war history', 4, 1);
+$Dunkirk = new Movie('Dunkirk', 106, 'Dramatic war history', '4');
 $Dunkirk->getDuration($Dunkirk->duration);
 
 // var_dump($ForrestGump);
