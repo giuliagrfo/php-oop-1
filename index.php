@@ -9,4 +9,18 @@ Definire una classe ‘Movie’
 
 class Movie
 {
+    // all'interno della classe dichiarare delle variabili d'istanza
+    public $title;
+    public $duration;
+    public $genre;
+    public $vote;
+
+    // - all'interno della classe è definito un costruttore
+    function __construct($title, $duration, $genre, $vote)
+    {
+        $this->title = $title;
+        $this->duration = $duration;
+        $this->genre = $genre;
+        $this->vote = $vote;
+    }
 }
